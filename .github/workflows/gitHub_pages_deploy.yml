@@ -17,10 +17,10 @@ jobs:
           node-version: "16.x"
 
       - name: Installing packages
-        run: npm install
+        run: yarn install
 
       - name: Build
-        run: npm run build && npm run export && touch ./out/.nojekyll
+        run: yarn run build && yarn run export && touch ./out/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
