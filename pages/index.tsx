@@ -3,18 +3,18 @@ import type {NextPage} from 'next'
 import {Container, Grid} from "@mui/material";
 import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/scale.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import Name from "./Components/Name";
-import Info from "./Components/Info";
-import WorkWith from "./Components/WorkWith";
+import MetaHead from "../components/MetaHead";
+import Footer from "../components/Footer";
+import Name from "../components/Name";
+import Info from "../components/Info";
+import WorkWith from "../components/WorkWith";
 
 const Home: NextPage = () => {
 
     // @ts-ignore
     return (
         <>
-            <Header/>
+            <MetaHead/>
             <div>
                 <Container>
                     <Grid container spacing={24}>
