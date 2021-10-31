@@ -10,7 +10,7 @@ const MetaHead: NextPage = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
             <meta name="description" content="Saumya Shovan Roy Website"/>
             <meta name="author" content="Saumya Shovan Roy"/>
-            <meta name="keywords" content="Software Engineer, Dev, Site, Boston, Massachusetts, USA, Startup, Java, Spring Boot, JPA, Hibernate, Junit, Mockito, gRPC, REST, RabbitMQ, NodeJS, Express, JavaScript, ES6, React, SQL, Elastic Search, ELK, NoSQL, MongoDB, Redis, NoSQL, Gitlab, CI/CD, Git, Docker, Helm, Bash, Maven, Npm, Kubernetes, OpenShift, AWS, GCP, Microk8s, Ngin"/>
+            <meta name="keywords" content="Software Engineer, Dev, Site, Boston, Massachusetts, USA, Startup, Java, Spring Boot, JPA, Hibernate, Junit, Mockito, gRPC, REST, RabbitMQ, NodeJS, Express, JavaScript, ES6, React, SQL, Elastic Search, ELK, NoSQL, MongoDB, Redis, NoSQL, Gitlab, CI/CD, Git, Docker, Helm, Bash, Maven, Npm, Kubernetes, OpenShift, AWS, GCP, Microk8s, Nginx"/>
             <meta property="og:title" content="Saumya Shovan Roy" />
             <meta property="og:description" content="Saumya Shovan Roy Website" />
             <meta property="og:url" content="https://saumyaroy.com/" />

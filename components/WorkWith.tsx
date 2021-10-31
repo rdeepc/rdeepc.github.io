@@ -149,6 +149,8 @@ const WorkWith: NextPage = () => {
         },
     ]
 
+    const wordsAlt = "Software Engineer, Dev, Site, Boston, Massachusetts, USA, Startup, Java, Spring Boot, JPA, Hibernate, Junit, Mockito, gRPC, REST, RabbitMQ, NodeJS, Express, JavaScript, ES6, React, SQL, Elastic Search, ELK, NoSQL, MongoDB, Redis, NoSQL, Gitlab, CI/CD, Git, Docker, Helm, Bash, Maven, Npm, Kubernetes, OpenShift, AWS, GCP, Microk8s, Nginx"
+
     const options = {
         colors: ["rgba(0,0,0,0.88)"],
         enableTooltip: false,
@@ -176,7 +178,7 @@ const WorkWith: NextPage = () => {
     return (
         <Container style={{padding: "50px"}}>
             <Typography style={{textAlign: "center", fontSize: "3em"}}>I work with</Typography>
-            {process.browser && <ReactWordcloud words={words} options={options} callbacks={callbacks}/>}
+            {process.browser && <ReactWordcloud words={words} alt={wordsAlt} options={options} callbacks={callbacks}/>}
         </Container>
     )
 }
