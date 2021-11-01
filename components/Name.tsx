@@ -7,11 +7,11 @@ const Name: NextPage = () => {
 
     return (
         <motion.div
-            animate={{x: 20, y: 20, opacity: 1}}
+            animate={{x: 10, y: 10, opacity: 1}}
             transition={{
                 delay: 1,
                 x: {type: "spring", stiffness: 100},
-                default: {duration: 3},
+                default: {duration: 5},
             }}
         >
             <Container>
